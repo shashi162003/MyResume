@@ -1,0 +1,61 @@
+.body {
+  background: url("./wb_bg_1920x1075.jpeg");
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/* body {
+    /* display: flex; */
+/* height: 100vh; */
+/* align-items: center; */
+/* justify-content: center; */
+/* /* } */
+h1 {
+  color: 0C356A;
+}
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 span {
+  color: #bd53ed;
+  position: relative;
+}
+
+h2 span::before {
+  content: "";
+  height: 30px;
+  width: 2px;
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  background: #bd53ed;
+  transform: translateY(-45%);
+  animation: blink 0.7s infinite;
+}
+h3{
+    color: rgb(55, 12, 95);
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+h2 span.stop-blinking::before {
+  animation: none;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+@keyframes blink {
+  50% {
+     opacity: 0;
+  }
+}
